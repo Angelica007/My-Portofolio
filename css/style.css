@@ -1,0 +1,102 @@
+body{
+    background-image: url("https://images.pexels.com/photos/265144/pexels-photo-265144.jpeg");
+    background-repeat: repeat;
+    background-size: contain;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:grey;
+  }
+  p{
+    font-weight: 300;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: rgb(184, 177, 114);
+    color: black
+  }
+  nav li a.active{
+    background-color:rgb(184, 177, 114);
+    color: whitesmoke; 
+  }
+  main{
+    background-color: rgba(223, 232, 236, 0.3);
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    position: relative;
+    top: 150px;
+    border: 1px grey;
+    bottom:80px;
+  }
+  .button{
+    background-color: rgb(184, 177, 114);
+          border: solid 1px !important;
+          border-color: rgba(255, 255, 255, 0.15) !important;
+          border-radius: 3em;
+          color: #ffffff !important;
+          cursor: pointer;
+          display: inline-block;
+          font-size: 0.6em;
+          height: calc(4.75em + 2px);
+          letter-spacing: 0.25em;
+          line-height: 4.75em;
+          outline: 0;
+          padding: 0 3.75em;
+          position: relative;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+  }
+  #activities{
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+    width:50%;
+  }
+  #activities td, #activities th{
+    border:1px solid #ddd;
+    padding:8px;
+    color:white;
+  }
+  #activities tr{
+    background-color:rgb(65, 63, 63);
+  }
+  #activities{
+    padding-top:12px;
+    padding-bottom:12px;
+    text-align:left;
+    color:white;
+  }
+  h1,h2{
+    text-align: center;
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size:50px;
+    border:2px;
+    border-color: #e1e1e1;
+    text-shadow: 2px 2px 5px rgb(194, 186, 111);
+    margin-top:70px;
+    margin-bottom:100px;
+  }
+  h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(194, 186, 111);
+  }
+  footer{
+    background-color: wheat;
+  }
