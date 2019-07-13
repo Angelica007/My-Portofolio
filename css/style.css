@@ -53,7 +53,6 @@ main{
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
-		font-weight: bold;
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
